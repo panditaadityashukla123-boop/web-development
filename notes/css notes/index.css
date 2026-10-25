@@ -1,0 +1,53 @@
+/*  Inline CSS  used in line*/
+/*  Internal CSS use style in head */
+/*  External CSS use  link tag  */
+/* selectors format: selector{ property : value ;} */
+/* types of sel;ector */
+/* Element selector use for elements directly use  */
+/* class selector use class in html and use .class name in css file */
+/* id selector use id in html and use # in css  */
+/* universal selector use * in css property use in all */
+/* specificity : inline css > id > class > element */
+/* combinators: it is a connection between elements*/
+/* descendent combinators represented by () that are nested inside a specified ancestor
+element, regardless of how deeply nested they are*/
+/* child combinator : format- div>p{} */
+/* Adjacent sibling combinators nearer element used a+p{} */
+/* general sibling combinator a~p{} */
+/* pseudo class format: selector:pseudo-class{} */
+/* pseudo element: selector :: pseudo-element{} */
+h3{
+    color: blueviolet;
+}
+.kala{
+    color: brown;
+}
+#gora{
+    color: chocolate;
+}
+div p{
+    color: darkblue;
+}
+div > p {
+    color: rgb(202, 7, 53);
+}
+h6 + p{
+    color: darkgreen;
+}
+div ~ p {
+    color: darkorange;
+}
+h6{
+    color: darkorchid;
+}
+.radhe :first-child{
+    color: green;
+}
+#radhe::after{
+    content: "hello";
+    color: lightcoral;
+}
+section::selection{
+    background-color: deepskyblue;
+}
+

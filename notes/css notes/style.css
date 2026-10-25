@@ -1,0 +1,94 @@
+#ram{
+    font-family: Rubik Storm, Geneva, Tahoma, sans-serif;
+}
+#radha{
+    font-size: 50px;
+}
+#bro{
+    font-weight: 900;
+    font-size: 24px;
+}
+#bhai{
+    font-style: oblique;
+    
+}
+#black{
+    font-variant: small-caps;
+}
+#white{
+    line-height: 5 ;
+}
+#yellow{
+    letter-spacing: 6px;
+}
+#red{
+    word-spacing: 30px;
+}
+#green{
+     text-align: center; 
+    border:1px solid red
+}
+#blue{
+    text-decoration: underline dashed ; 
+    /* background: linear-gradient(to left,red,blue,pink); */
+    background: linear-gradient(45deg,red,blue,pink);
+    height: 30px;
+}
+#pink{
+    text-transform: uppercase ;
+    background: radial-gradient(circle,red,yellow,blue) ;
+    height:100px;
+}   
+#grey{
+    text-indent: 50px; 
+    /* for bloacked tag */
+   background-image: conic-gradient(red,blue,green);
+   height: 54px;
+
+}
+#violet{
+    text-shadow:  -10px 10px 10px rgb(229, 255, 0) ;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZhA54no4dEkc9t9e66TXRBKiFP-tkVldpOIZsMz3FQ&s=10);
+    height: 100px;
+    /* multiple time */
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    background-size: cover;
+}  
+#cream{
+    color: darkmagenta; 
+    color: #000000 ;
+    color: #ffffff;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: rgb(0,0,0);
+    color: rgba(360, 20, 360,10 );
+    color: hsl(60,100,40);
+      /* border: width 2px;;
+      border-style: solid ;
+      border-color: red ; */
+       border: 5px solid blue; 
+       /* border-top: #9d09c2; */
+      border-radius: 5px;
+      /* padding is a space between border and font  give in all direction*/
+      padding: 50px;
+      /* padding:top right bottom left */
+      /* padding:top-bottom left-right */
+      /* padding:top left-right bottom  */
+      padding: 50px 40px 50px 500px;
+      /* margin is space between element */
+      margin: 10px;
+    
+}
+#rom{
+    margin:auto;
+    border: 1px solid red;
+    width: 300px;
+}
+body{
+     padding: 50px;
+      border: 5px solid blue; 
+      margin: 20px;
+      box-sizing: border-box;
+}
